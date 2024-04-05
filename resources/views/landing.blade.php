@@ -16,7 +16,7 @@
 
 <body>
     <div class="navbar p-3">
-        <div class="logo"> <img src="assets/img/heru_wolfcut.png" style="max-width: 10%" alt="Logo">
+        <div class="logo"> <img src="" style="max-width: 10%" alt="">
             Logo</div>
         <div class="nav-buttons">
             <button class="button register">Register</button>

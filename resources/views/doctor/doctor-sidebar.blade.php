@@ -7,11 +7,10 @@
 
   <div class="menu">
     <div class="menu-header">
-      <aside></aside>
         <h5>DASHBOARD</h5>  
     </div>
     <div class="submenu">
-        <a href="{{ route('dashboard') }}" class="submenu-link">
+        <a href="{{ route('admin-dashboard') }}" class="submenu-link">
             <span class="material-symbols-outlined">Home</span>
             Home
         </a>
@@ -19,11 +18,10 @@
   </div>
   <div class="menu">
     <div class="menu-header">
-      <aside></aside>
         <h5>PATIENTS</h5>  
     </div>
     <div class="submenu">
-        <a href="#" class="submenu-link">
+        <a href="{{ route('mypatients') }}" class="submenu-link">
             <span class="material-symbols-outlined">group</span>
             My Patients
         </a>
@@ -31,11 +29,10 @@
   </div>
   <div class="menu">
     <div class="menu-header">
-      <aside></aside>
         <h5>ACCOUNTS</h5>  
     </div>
     <div class="submenu">
-        <a href="#" class="submenu-link">
+        <a href="{{ route('admin-profile') }}" class="submenu-link">
             <span class="material-symbols-outlined">work</span>
             Profile
         </a>

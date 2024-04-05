@@ -1,6 +1,6 @@
 @extends('doctor.doctor-generics')
 @section('content')
-<h1>THIS IS DASHBOARD</h1>
+<h1>THIS IS PROFILE PAGE</h1>
 <div class="card">
   <div class="card-header">
     <h3 class="card-title">Patient Information</h3>
